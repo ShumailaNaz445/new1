@@ -1,0 +1,495 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header .icons{
+    height: 30px;
+    width: 100%;
+    box-shadow: 2px 2px 2px grey;
+}
+header .top i{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+header .left{
+    padding-top: 5px;
+}
+header nav .left i{
+    padding-left: 10px;
+}
+header nav .nav-items .bar{
+    visibility: hidden;
+    color: black;
+}
+header nav{
+    width: 100%;
+    height: 90px;
+}
+header nav .nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .nav-items a , h1{
+    padding-top: 20px;
+}
+header nav .nav-items a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.btn1{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+.nav-items i{
+    color: orangered;
+    font-size: 1.7rem;
+    padding-top: 20px;
+}
+.main{
+    background-image: url('./front.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+.summer{
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.main .summer span{
+    color: orangered;
+}
+.main .summer h3{
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 170px;
+    padding: 10px;
+} 
+.main .summer h1{
+    font-size: 4rem;
+    color: white;
+}
+.main .summer p{
+    font-size: 5rem;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+table{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table tr .image{
+    height: 600px;
+    width: 400px;
+}
+table tr .image img{
+    height: 100%;
+    width: 100%;
+}
+table tr .lorem{
+    height: 600px;
+    width: 500px;
+    display: flex ;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+table tr .lorem h1 , h6{
+    padding-left: 30px;
+}
+table tr .lorem h1{
+    font-size: 3rem;
+}
+table tr .lorem .box{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(238, 233, 233);
+    margin: 20px;
+    margin-top: 80px;
+}
+table tr .lorem .box h2{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+table tr .lorem .box p{
+    padding-left: 10px;
+}
+table tr .lorem .box .bold{
+    font-weight: bold;
+}
+table tr .lorem .box .blue{
+    color: rgb(42, 173, 224);
+}
+table tr .lorem h6{
+    color: red;
+}
+table tr .solid span{
+    font-size: 1.5rem;
+}
+table tr .solid i{
+    font-size: 2rem;
+    color: orangered;
+}
+.bg-image{
+    background-image: linear-gradient(rgba(216, 230, 218, 0.479),rgba(201, 241, 214, 0.534)) , url('./3rd\ image.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 75vh;
+   z-index: -8;
+}
+.views{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+}
+.bg-image .container{
+    background-image: url('./4th\ Image.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 800px;
+   height: 400px;
+}
+.bg-image{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-image h6 , .get{
+    position: relative;
+    top: 200px;
+}
+.bg-image .get{
+    font-size: 3rem;
+    color: white;
+}
+.bg-image h6{
+    color: red;
+}
+.bg-image .container .icon{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.bg-image .container .icon{
+    width: 50px;
+    background-color: orangered;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 160px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 400px;
+    gap: 50px;
+}
+.buttons .btn2 , .btn3 , .btn4{
+    background-color: peachpuff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons .num{
+    font-size: 2.2rem;
+    padding: 5px;
+}
+.buttons .part{
+    font-size: 1.1rem;
+}
+section{
+    background-color: rgb(248, 246, 246);
+    height: 1100px;
+}
+.deals{
+    width: 100wh;
+    height: 150px;
+    margin-top: 600px;
+    margin-bottom: 50px;
+}
+section .deals h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+section .deals h6{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: red;
+}
+section .button-1{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.button-1 .btn-5{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.button-1 .btn-6{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.button-1 .btn-7{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.deals h1{
+    font-size: 2.5rem;
+    display: inline-block;
+}
+section .two{
+    width: 100wh;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.two .first{
+    width: 350px;
+    height: 250px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.meter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.two .second{
+    width: 500px;
+    height: 500px;
+}
+.two .second img{
+    width: 100%;
+    height: 100%;
+}
+.two .third{
+    width: 350px;
+    margin-left: 10px;
+}
+.two .third h6{
+    font-size: 1rem;
+}
+.two .third p{
+    padding: 10px;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1 , .card2 , .card3{
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background-color: rgb(238, 231, 231);
+}
+img{
+    width: 100%;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.rate button{
+    background-color: pink;
+    border: 0;
+}
+.card1 h3{
+    padding: 10px;
+}
+.card2 h3{
+    padding: 10px;
+}
+.card3 h3{
+    padding: 10px;
+}
+.card1 .button-2{
+    padding-top: 10px;
+    background-color: black;
+    width: 90px;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+.card2 .button-2{
+    padding-top: 10px;
+    background-color: black;
+    width: 90px;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+.card3 .button-2{
+    padding-top: 10px;
+    background-color: black;
+    width: 90px;
+    color: white;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+.last-image{
+    background-image: url('./7th\ \ image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.frame{
+    position: relative;
+    left: 100px;
+    top: 250px;
+}
+.form{
+    height: 400px;  
+}
+.fill{
+    float: right;
+    background-color: lightgray;
+    padding: 20px;
+    position: relative;
+    top: 300px;
+    margin-right: 20px;
+}
+.last-buttons .buttn-1 , .buttn-2{
+    background-color: lightcoral;
+    position: relative;
+    top: 280px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px grey;
+    height: 200px;
+    padding: 10px;
+}
+.last-buttons .buttn-1 , .buttn-2{
+    color: orangered;
+    font-size: 1.5rem;
+}
+.last{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.last-line{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 300px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:900px){
+    header{
+       width: 100%;
+    }
+    header nav .nav-items a{
+        visibility: hidden;
+    }
+    header nav .nav-items .bar{
+        visibility: visible;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .summer h1{
+        font-size: 2rem;
+    }
+    table{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    table tr .lorem h1{
+        font-size: 2.5rem;
+    }
+    table tr .solid span{
+        font-size: .8rem;
+    }
+    table tr .solid i{
+        font-size: .8rem;
+    }
+    .bg-image .container{
+        width: 600px;
+    }
+    section .deals{
+        width: 100%;
+    }
+    .heading{
+        position: relative;
+        top: 100px;
+    }
+    .last-buttons .buttn-1 , .buttn-2{
+        font-size: 1rem;    
+    }
+    .frame{
+        visibility: hidden;
+    }
+}
+@media (max-width:1050px){
+    .fill{
+        width: 300px;
+        margin-right: 10px;
+    }
+    .frame{
+        visibility: hidden;
+    }
+}
